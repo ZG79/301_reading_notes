@@ -24,7 +24,7 @@ The characteristics of the component are the advantages of using it. On top of t
   return <h1>Hello, {props.name}</h1>;
 }
 ```
-<strong>Class (Stateful) component (/strong): ES6 classes. They are more complex than functional components including constructors, life-cycle methods, render( ) function and state (data) management.
+<strong>Class (Stateful) component </strong>: ES6 classes. They are more complex than functional components including constructors, life-cycle methods, render( ) function and state (data) management.
 - is an ES6 class, will be a component once it ‘extends’ React component.
 - can accept props (in the constructor) if needed
 - can maintain its own data with state
@@ -32,19 +32,16 @@ The characteristics of the component are the advantages of using it. On top of t
   
   ```js
   import React, { Component } from 'react';
-
-class Counter extends Component {
+  class Counter extends Component {
   constructor(props) {
     super(props);
     this.state = {
       count: 0
     };
   }
-
   incrementCount = () => {
     this.setState({ count: this.state.count + 1 });
   }
-
   render() {
     return (
       <div>
@@ -52,11 +49,11 @@ class Counter extends Component {
         <button onClick={this.incrementCount}>Increment</button>
       </div>
     );
-  }
-}
-
-export default Counter;
+    }
+   }
+   export default Counter;
   ```
+  
   ## React Prop
   React is a component-based library that divides the UI into little reusable pieces. In some cases, those components need to communicate (send data to each other) and the way to pass data between components is by using props.
   
