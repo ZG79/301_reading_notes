@@ -46,6 +46,15 @@ If only in the component: state
 if handling outside: props (inherit from the parent)
 
 
+Sources: 
+
+w3schools.com
+
+openai.com
+
+medium.com
+
+webdevsimplified - youtube channel
 
 
 
