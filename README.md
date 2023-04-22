@@ -1,9 +1,10 @@
 # Reading Notes
 ** Zeegii Ulziibaatar's notes from Code Fellow courses.
 
-## Code 301 Foundations of Software Development
+## Code 301 Intermediate Software Development
 ### Things I want to know more about
-
+- React state and props. 
+- this keyword (how to correctly selecting the elements)
 ### Table of Contents 
 
 - Module 1: Introduction to Web Development 
