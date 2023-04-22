@@ -87,7 +87,7 @@ const mergedObj = { ...obj1, ...obj2 };
 define the function in the parent component and then pass it down as a prop to the child component.
 
 ### In your own words, what does the increment function do?
-
+increment function next to the state changes the object value if it's selected. Increment function in the constructor, calls the function that was written to change the state.
 ### How can you pass a method from a parent component into a child component?
 In React, you can pass a method from a parent component into a child component as a prop. 
 
