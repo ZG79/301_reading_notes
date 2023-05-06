@@ -23,3 +23,22 @@ npm i jshint
 <img width="719" alt="Screenshot 2023-05-06 at 7 59 51 AM" src="https://user-images.githubusercontent.com/101478282/236631912-12dded7d-d1ee-44d4-a511-6e6075a43584.png">
 node is used for bundling your JavaScript files and dependencies into static assets, to running tests, or automatic code linting and style checking.
 
+## Pair programming 
+
+### 6 benefits of pair programming
+
+1. Greater efficiency: Pair programming produces higher-quality code that doesn't require later effort in troubleshooting and debugging, making it more efficient than two people working separately on different features. It also enhances technical skills, team communication, and enjoyment of coding in the workplace.
+
+2. Engaged collaboration: Pair programming is more engaging and both programmers are more focused than if they were working alone. This leads to better concentration, less procrastination, and a boost in overall confidence.
+
+3. Learning from fellow students: Pair programming exposes developers to techniques they otherwise would not have thought of. If one developer has a unique approach to a specific problem, pair programming exposes the other developer to a new solution.
+
+4. Social skills: Pair programming is great for improving social skills as it requires strong communication and collaboration between the two programmers. It helps to develop interpersonal skills and teaches programmers to find the right words to express their ideas.
+
+5. Job interview readiness: Pair programming is a common step in many interview processes, and companies use it to get a better feel for how an applicant will fit into the team and their collaboration style. Pair programming strengthens all of the skills needed to work well with others and be a strong team player.
+
+6. Work environment readiness: Many companies use pair programming as an agile practice, and learning to work in this way prepares developers for this environment. Pair programming teaches developers to communicate effectively, work collaboratively, and understand the importance of code quality.
+
+I found engaged collaboration and work environment readiness to be really helpful. 
+
+When we paired programmed in 201 class, one of us took the role of the driver, responsible for writing the code, while the other acted as the navigator, providing guidance to the driver and deciding which algorithm to use. The driver focused on figuring out the syntax and implementing the code based on the navigator's instructions.
