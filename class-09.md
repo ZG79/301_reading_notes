@@ -15,4 +15,7 @@ pure functions + immutable data = referential transparency
 A module is a self-contained unit of code that can be imported and used in other programs or modules. A module typically contains related functions, classes, and variables that provide specific functionality.
 ### What does the word ‘require’ do?
 The require keyword is used in many programming languages to include and use external code or modules within a program. When the require keyword is used, the program attempts to load and execute the specified code or module.
-### 
+### How do we bring another module into the file that we are working in?
+require('module')
+### What do we have do to make a module available?
+  module.exports 
