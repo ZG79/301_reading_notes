@@ -29,3 +29,13 @@ Hierarchical data is a data structure in which data is organized in a tree-like 
 ### Which type of database is best for scalability?
 
 NoSQL databases are generally more scalable than SQL databases. This is because NoSQL databases are designed to store and access data in a variety of formats, including documents, key-value pairs, and graphs. This makes NoSQL databases more flexible and adaptable to changes in data requirements.
+
+- What does SQL stand for? Structured Query Language
+- What is a relational database? Database that works certain way, like tables. 
+- What type of structure does a relational database work with? SQL
+- What is a ‘schema’? Strict path that decides which data goes where. 
+- What is a NoSQL database? Has collections, documents. 
+- How does it work? You don't have to follow schema. 
+- What is inside of a MongoDB database? 
+- Which is more flexible - SQL or MongoDB? and why. MongoDB is more flexible. 
+- What is the disadvantage of a NoSQL database?
