@@ -39,3 +39,44 @@ NoSQL databases are generally more scalable than SQL databases. This is because 
 - What is inside of a MongoDB database? 
 - Which is more flexible - SQL or MongoDB? and why. MongoDB is more flexible. 
 - What is the disadvantage of a NoSQL database?
+
+
+## 19 keypoints about NoSQL : 
+
+NoSQL stands for "Not only SQL." It is a broad category of database systems that provide flexible, non-relational data storage solutions.
+
+NoSQL databases are designed to handle large volumes of unstructured and semi-structured data, offering scalability, high performance, and horizontal scaling capabilities.
+
+Unlike traditional relational databases, NoSQL databases do not use a fixed schema. They are schema-less or have a flexible schema, allowing for easy adaptation to changing data requirements.
+
+NoSQL databases use a variety of data models, such as key-value, document, columnar, and graph. Each model is suited for different use cases and offers unique benefits.
+
+Key-value stores are the simplest NoSQL databases, storing data as a collection of key-value pairs. They offer high performance for simple read/write operations and are often used for caching and session management.
+
+Document databases store data in a semi-structured format, usually using JSON or XML. They provide flexibility for evolving data structures and are suitable for use cases like content management systems and real-time analytics.
+
+Columnar databases organize data in columns rather than rows, making them efficient for handling large amounts of data and complex queries. They are commonly used for data warehousing and analytical workloads.
+
+Graph databases model data using nodes and edges, representing relationships between entities. They excel in handling complex interconnections and are valuable for applications like social networks and recommendation systems.
+
+NoSQL databases prioritize high availability and partition tolerance over consistency, as per the CAP theorem. This means that in the event of a network partition, they may sacrifice consistency to maintain availability and performance.
+
+NoSQL databases often use distributed architectures and can be deployed across multiple servers or clusters. They provide horizontal scalability by adding more machines to the cluster, enabling efficient handling of large workloads.
+
+ACID (Atomicity, Consistency, Isolation, Durability) properties, which are essential for transactional integrity, are often relaxed or not guaranteed in NoSQL databases. Instead, they may offer BASE (Basically Available, Soft-state, Eventually Consistent) properties, emphasizing availability and eventual consistency.
+
+NoSQL databases offer flexible data replication and data partitioning strategies. Replication allows for data redundancy and fault tolerance, while partitioning enables distributing data across multiple nodes for better performance.
+
+NoSQL databases are widely adopted in various industries, including e-commerce, social media, gaming, IoT, and big data analytics, due to their ability to handle large-scale, diverse, and real-time data.
+
+NoSQL databases integrate well with modern application development frameworks and tools. Many NoSQL databases provide APIs, drivers, and libraries for popular programming languages, making it easier to work with them.
+
+NoSQL databases can be complemented with traditional relational databases in a hybrid approach, often referred to as polyglot persistence. This allows for leveraging the strengths of both types of databases for different parts of an application.
+
+NoSQL databases can have trade-offs in terms of data consistency and query flexibility. Developers need to carefully consider the specific requirements of their use case and choose the appropriate NoSQL database accordingly.
+
+Common NoSQL databases include MongoDB, Couchbase, Cassandra, Redis, HBase, Neo4j, and DynamoDB. Each has its own strengths and weaknesses, so understanding their characteristics helps in selecting the right one for your needs.
+
+NoSQL databases often provide horizontal scaling and fault tolerance through sharding, which involves dividing data into smaller subsets and distributing them across multiple nodes. Sharding can improve performance and handle increasing data volumes.
+
+NoSQL databases can handle unstructured and semi-structured data
