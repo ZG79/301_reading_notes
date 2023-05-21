@@ -63,4 +63,42 @@ But the important part here is that data with props are being passed in a uni-di
 
 Furthermore, props data is read-only, which means that data coming from the parent should not be changed by child components.
   
-  
+## 19 keypoints about React
+
+React is a popular JavaScript library for building user interfaces. It allows you to create reusable UI components and efficiently update and render them based on changes in application state.
+
+React follows a component-based architecture, where the user interface is divided into independent and reusable components. Each component encapsulates its own logic and state.
+
+React uses a virtual DOM (Document Object Model) to optimize the rendering process. It creates a lightweight representation of the actual DOM, allowing React to efficiently update only the necessary parts of the UI when the application state changes.
+
+JSX (JavaScript XML) is an extension of JavaScript used in React. It allows you to write HTML-like code within JavaScript, making it easier to define the structure and appearance of components.
+
+React utilizes a unidirectional data flow. The application state is stored in a central place and passed down to child components as props. Child components can trigger updates by invoking callback functions passed to them.
+
+React provides lifecycle methods that allow you to hook into different stages of a component's lifecycle, such as mounting, updating, and unmounting. This enables you to perform actions like fetching data or cleaning up resources at the appropriate times.
+
+React emphasizes the concept of reusable and composable components. By breaking down the UI into smaller components, you can create a library of reusable elements that can be combined to build complex user interfaces.
+
+React offers a virtual DOM diffing algorithm that efficiently calculates and applies the minimal set of changes required to update the UI. This minimizes the performance impact of rendering updates and ensures a smooth user experience.
+
+React provides a way to manage component-specific state using the useState hook. With this hook, you can define and update local state within a component without the need for class-based components.
+
+React supports conditional rendering, allowing you to show or hide components based on certain conditions. You can use JavaScript expressions or conditional statements to control the visibility of components.
+
+React supports the concept of "props" (short for properties) that allow data to be passed from parent components to child components. Props are immutable and provide a way to communicate and share data between components.
+
+React encourages a declarative approach to building user interfaces. Instead of directly manipulating the DOM, you define how the UI should look based on the current state and let React handle the updates.
+
+React provides a way to handle user interactions and events through event handlers. You can attach event handlers to elements and components to respond to user actions, such as clicks or form submissions.
+
+React supports the concept of "hooks," which are functions that allow you to add additional capabilities to functional components. Hooks, such as useEffect and useContext, enable you to work with side effects and access context within functional components.
+
+React supports the concept of "controlled components" where the component's state is controlled by the application rather than the component itself. This allows for centralized state management and easier form handling.
+
+**React can be used in conjunction with other libraries and frameworks to build complete applications. Popular choices include React Router for handling routing, Redux for state management, and Axios for making HTTP requests.**
+
+React has a strong and active community, with numerous open-source libraries and resources available. You can leverage these resources to enhance your development experience and find solutions to common challenges.
+
+React Native is a framework built on top of React that allows you to develop native mobile applications using JavaScript. It shares many concepts and principles with React, making it easier to transition between web and mobile development.
+
+React provides tools like React Developer Tools and error boundaries that aid in debugging and troubleshooting React applications.
