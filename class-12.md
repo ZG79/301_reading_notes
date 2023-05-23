@@ -19,9 +19,11 @@ Because we don't want sensitive information stored in the database to get out in
 
 2. What is middleware?
 
+When the server gets request and before it sends the data. `app.use()` and parse the request with JSON.  
 
 3. What does app.use(express.json()) do? 
 
+It will enable the middleware provided by the `express.json()`
 
 4. What does the /:id mean in a route?
 
