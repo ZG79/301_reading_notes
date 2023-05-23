@@ -11,3 +11,29 @@ A status code is a number higher than 100 and smaller than 600 that is part of a
 - If the client hasn't received the data I'd use 204 No content status code. ( server successfully processed the request and fulfilled it, but there is no content to send back in the response payload.)
 - If the resource got deleted or moved I'd use 410 Gone. (The 410 Gone status code indicates that the requested resource is no longer available, and there are no forwarding addresses where it might be found.)
 - Forbidden status code: 403 Forbidden status code indicates that the server understood the request but refuses to authorize it. 
+
+## Build a rest API With Node.js, Express & MongoDB
+1. Why do we need to pull our MongoDB database string out of our server and put it into our .env?
+
+Because we don't want sensitive information stored in the database to get out in the GitHub or accessible to the public.
+
+2. What is middleware?
+
+
+3. What does app.use(express.json()) do? 
+
+
+4. What does the /:id mean in a route?
+
+
+5. What is the difference between PUT and PATCH?
+
+
+6. How do you make a default value in a schema?
+
+
+7. What does a 500 error status code mean?
+
+
+8. What is the difference between a status 200 and a status 201?
+
