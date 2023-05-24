@@ -23,19 +23,27 @@ When the server gets request and before it sends the data. `app.use()` and parse
 
 3. What does app.use(express.json()) do? 
 
-It will enable the middleware provided by the `express.json()`
+It lets our server accept JSON. 
 
 4. What does the /:id mean in a route?
 
+id is a parameter, we can access it by `req.params.id` It will allow us to access whatever puts in after the slash. It used with router.get('/')
 
 5. What is the difference between PUT and PATCH?
 
+Patch - only update the info the user put. 
+Put - update everything. 
 
 6. How do you make a default value in a schema?
 
+  add 'default' - key in the object that we are creating in the Schema. 
 
 7. What does a 500 error status code mean?
 
+There is an error in the server, database. Not from the client side. 
 
 8. What is the difference between a status 200 and a status 201?
+
+201: successfully created an object. 
+200: Everything is good. 
 
